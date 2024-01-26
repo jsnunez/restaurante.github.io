@@ -27,19 +27,22 @@
                 </label>
                 <ul id="item">
                     <li>
-                        <a href="#body">home</a>
+                        <a href="#body" onclick="desmarcar()".checked>home</a>
                     </li>
                     <li>
-                        <a href="#p2">about</a>
+                        <a href="#p2" onclick="desmarcar()".checked>
+                            about
+                         
+                        </a>
                     </li>
                     <li>
-                        <a href="#p3">menu</a>
+                        <a href="#p3" onclick="desmarcar()".checked>menu</a>
                     </li>
                     <li>
-                        <a href="#p4">service</a>
+                        <a href="#p4" onclick="desmarcar()".checked>service</a>
                     </li>
                     <li>
-                        <a href="#p5">Contacto</a>
+                        <a href="#p5" onclick="desmarcar()".checked>Contacto</a>
                     </li>
                 </ul>
 
@@ -52,15 +55,15 @@
 
         <div id="laterali1">
             <div>
-                <h1>home</h1>
+                <h1>Full website</h1>
             </div>
             <div>
-                <h2>fgdfsg</h2>
+                <h2>la mejor comida para tu familia</h2>
             </div>
             <div>
 
                 <button>
-                    fsdaf
+                    menu del dia
                 </button>
             </div>
         </div>
@@ -82,15 +85,15 @@
             </div>
 
         </div>
-        <div id="laterali1">
+        <div id="laterali2">
             <div>
-                <h1>about us</h1>
+                <h3 >about us</h3>
             </div>
             <div>
-                <h2>dsfdsfsd</h2>
+                <h2 >We speak the good food language</h2>
             </div>
             <div>
-                <h2>dsfdsfsd</h2>
+                <p >it is a long establishe fact that a be distracted by the readable content</p>
             </div>
             <div>
 
@@ -101,44 +104,72 @@
         </div>
     </div>
     <div class="paginas1" id="p3">
-        <div id="laterali1">
+        <div class="vertical">
             <div>
-                <h1>menu</h1>
+                <h3>menu</h3>
             </div>
             <div>
-                <h2>fgdfsg</h2>
+                <h2>Fresh taste and grat price</h2>
             </div>
-            <div>
-
-                <button>
-                    fsdaf
-                </button>
+            <div id="ordenimag">
+                <div>
+                    <img src="home.png" alt="">
+                    <h4>chiken</h4>
+                </div>
+                <div>
+                    <img src="home.png" alt="">
+                </div>
+                <div>
+                    <img src="home.png" alt="">
+                </div>
+  
             </div>
         </div>
-        <div class="imagenes">
 
-            <img src="home.png" alt="">
-        </div>
     </div>
     <div class="paginas1" id="p4">
-        <div id="laterali1">
+        <div class="vertical">
             <div>
-                <h1>service</h1>
+                <h3>menu</h3>
             </div>
             <div>
                 <h2>fgdfsg</h2>
             </div>
-            <div>
-
-                <button>
-                    fsdaf
-                </button>
+            <div id="ordenimag">
+                <div>
+                    <div>
+                        <img src="home.png" alt="">
+                    </div>
+                    <div>
+                        <p>  
+                            <H2>DSFDS</H2>
+                            <h3>gdsgsfd</h3></p>
+                      
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="home.png" alt="">
+                    </div>
+                    <div>
+                        <p>  
+                            <H2>DSFDtyrtS</H2>
+                            <h3>gdsgsfd</h3></p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="home.png" alt="">
+                    </div>
+                    <div>
+                        <p>  
+                            <H2>DSFDS</H2>
+                            <h3>gdsgsfd</h3></p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="imagenes">
 
-            <img src="home.png" alt="">
-        </div>
     </div>
     <div class="paginas1" id="p5">
         <div id="laterali1">
@@ -161,7 +192,11 @@
         </div>
     </div>
 
-
+    <script>
+ function desmarcar(){
+    document.getElementById("check").checked=false
+ }
+    </script>
 
 
 </body>
