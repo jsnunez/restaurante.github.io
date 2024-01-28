@@ -2,7 +2,7 @@
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    font-family: cursive;
     font-size: 62.5%;
     background-color: #401437;
     
@@ -59,16 +59,17 @@
     padding-right: 20px;
 }
 
-#menu>ul {
+#menu ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: right;
-
+    list-style: none;
     height: 100%;
 }
 
+ 
 #menu a {
     text-transform: uppercase;
     color: #fcc219;
@@ -78,7 +79,7 @@
     transition: all 300ms;
     border: 2px solid #fe3b72;
 border-color: 1px solid gray;
-
+    list-style: none;
 }
 
 #menu a:hover {
@@ -157,7 +158,7 @@ border-color: 1px solid gray;
 
 #laterali1 h2 {
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 20px;
     color: white;
     font-size: 6vh;
     text-align: left;
@@ -167,7 +168,8 @@ border-color: 1px solid gray;
 
 
 #laterali1 button,
-#laterali2 button {
+#laterali2 button
+ {
     margin: 20px ;
     border-color: 100px solid black ;
     background-color: #fcc219;
@@ -276,7 +278,78 @@ cursor:pointer;
     color: #ff702a;
 
 }
+.paginas2 {
+    width: 90%;
+    height: 70vh;
+    margin: 0px auto;
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    box-shadow: 0px 0px 10px #cccccc;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.paginas2 h1{
 
+    font-size: 7vh;
+    color: #64b403;
+    background-color: #e6cfcb ;
+}
+.paginas2 button{
+    margin: 20px ;
+    border-color: 100px solid black ;
+    background-color: red;
+    color: black;
+    font-size: 5vh;
+    cursor: pointer;
+}
+#fondo2{
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    margin: 30px;
+    background-color: #e6cfcb;
+}
+#contacto {
+    
+    width: 90%;
+    height: 30vh;
+    margin: 0px auto;
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    box-shadow: 0px 0px 10px #cccccc;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 7vh;
+}
+#contacto div {
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    margin-left: 20px;
+    list-style: none;
+}
+#contacto ul {
+    list-style: none;
+    font-size: 5vh;
+    text-align: center;
+}
+#contacto li {
+margin-top:2.5px;
+
+}
+#contacto a {
+    font-size: 10px;
+    padding: 5px;
+
+    border: 1px solid #fe3b72;
+    color: #fcc219;
+    transition: all 300ms;
+}
+#contacto h2 {
+    color: #fe3b72;
+    }
+    #menu1 a:hover {
+        border: 2px solid #087f5b;
+    
+    }
 
 @media (max-width: 720px) {
     .checkbtn {
