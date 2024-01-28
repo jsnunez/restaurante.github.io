@@ -202,15 +202,16 @@ img {
 }
 
 .paginas1 h3{
-    margin-top: 20px;
-     color: #ff702a;
+align-items: center;
+    color: #ff702a;
     font-size: 2.5vw;
 }
 .paginas1 h2{
-    margin-top: 20px;
+    align-items: center;
      color: white;
     font-size: 2.5vw;
 }
+
 
 .checkbtn {
     font-size: 10vh;
@@ -232,9 +233,27 @@ img {
 }
 
 #ordenimag {
-
+cursor:pointer;
     display: flex;
     flex-direction: row;
+
+}
+
+#ordenimag h4 {
+    font-size: 5vh;
+    color: #ff702a;
+
+}
+
+#ordenimag h5 {
+    font-size: 2vh;
+    color: #ff702a;
+
+}
+
+#ordenimag p {
+    font-size: 2vh;
+    color: #ff702a;
 
 }
 
@@ -258,6 +277,7 @@ img {
         flex-direction: row;
         transition: all .5s;
         justify-content: flex-start
+        
     }
 
     ul li {
@@ -274,7 +294,7 @@ img {
 
     li a:hover,
     li a.active {
-        background: none;
+        background: green;
         color: red;
     }
 
@@ -290,6 +310,8 @@ img {
         justify-content: flex-start;
         list-style: none;
         height: 100%;
+        height: 50vh;
+        background-color: #2c3e50;
     }
 
 }
