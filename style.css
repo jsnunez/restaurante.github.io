@@ -289,25 +289,43 @@ cursor:pointer;
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    
+} 
+.paginas2 div{
+
+    background-image: url("fondos.jpg");
+    background-size:80vh;
 }
 .paginas2 h1{
 
     font-size: 7vh;
-    color: #64b403;
-    background-color: #e6cfcb ;
+    color: white;
+margin-top: 100px;
+    background-color:  #1a191f ;
+    background-size:30vw;
+    
 }
 .paginas2 button{
-    margin: 20px ;
-    border-color: 100px solid black ;
-    background-color: red;
+    margin: 5px ;
+
+    border-color: 100px solid #fe3b72 ;
+    background-color: #d6ac5a;
     color: black;
     font-size: 5vh;
     cursor: pointer;
+    
 }
 #fondo2{
     border: 1px solid rgba(225, 225, 226, 0.8);
     margin: 30px;
-    background-color: #e6cfcb;
+    height: 40vh;
+    padding: 30px;
+
+   
+}
+
+#fondo2 h1{
+margin-top: 60px;
 }
 #contacto {
     
