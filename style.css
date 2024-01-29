@@ -409,6 +409,18 @@ img {
     width: 35vw;
 }
 
+#menu2 {
+    display:flex ;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#menu2 img{
+
+    border: none;
+    height: 5vw;
+    width: 5vw;
+}
 @media (max-width: 720px) {
     .checkbtn {
         display: flex;
@@ -561,6 +573,7 @@ img {
 
     #p4 {
         height: 130vh;
+        
     }
 
 
