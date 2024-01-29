@@ -121,17 +121,26 @@ border-color: 1px solid gray;
     margin-top: 20px;
     margin-left: 10px;
     color: #fe3b72;
-    font-size: 7vh;
+    font-size: 4vw;
     text-align: left;
 
 }
+#laterali1 h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 5vw;
+    text-align: left;
+
+}
+
 
 #laterali2 h2 {
     margin-top: 20px;
     color: white;
     margin-left: 20px;
 
-    font-size: 5vh;
+    font-size: 5vw;
     text-align: left;
 
 }
@@ -153,14 +162,6 @@ border-color: 1px solid gray;
 
 }
 
-#laterali1 h2 {
-    margin-top: 20px;
-    margin-left: 20px;
-    color: white;
-    font-size: 6vh;
-    text-align: left;
-
-}
 
 
 
@@ -171,7 +172,7 @@ border-color: 1px solid gray;
     border-color: 100px solid black ;
     background-color: #fcc219;
     color: black;
-    font-size: 5vh;
+    font-size: 2vw;
     cursor: pointer;
 
 
@@ -190,7 +191,7 @@ border-color: 1px solid gray;
 img {
     text-align: center;
     justify-content: center;
-    width: 70%;
+    width: 20vw;
     border: 5px solid #04c35b;
 
     height: width;
@@ -222,7 +223,7 @@ img {
 .paginas1 h3{
 align-items: center;
     color: #fe3b72;
-    font-size: 10vh;
+    font-size: 6vw;
 }
 .paginas1 h2{
     align-items: center;
@@ -258,7 +259,7 @@ cursor:pointer;
 }
 
 #ordenimag h4 {
-    font-size: 5vh;
+    font-size: 3vw;
     color: white;
 
 }
@@ -312,10 +313,14 @@ margin-top: 100px;
     cursor: pointer;
     
 }
+#p5{
+    display: flex;
+    flex-direction: row;
+}
 #fondo2{
     border: 1px solid rgba(225, 225, 226, 0.8);
     margin: 30px;
-    height: 40vh;
+    width: 50vw;
     padding: 30px;
 
    
@@ -323,6 +328,7 @@ margin-top: 100px;
 
 #fondo2 h1{
 margin-top: 60px;
+font-size: 4vw;
 }
 #contacto {
     
@@ -373,8 +379,7 @@ margin-top:10px;
             margin-top: 10px;
     
         }
-    
-        #menu ul {
+            #menu ul {
             display: flex;
             position: fixed;
             width: 100%;
@@ -388,27 +393,23 @@ margin-top:10px;
             justify-content: flex-start
             
         }
-    
-        #menu ul li {
+            #menu ul li {
             display: block;
             margin: 10px 0;
             line-height: 30px;
         }
-    
-        #menu ul li a {
+           #menu ul li a {
             margin-left: 0px;
             font-size: 20px;
             
             margin-top: 50px;
             background-color: #4a1b33;
         }
-    
-    
+      
         #check:checked~ul {
             left: 0;
         }
-    
-    
+      
         #menu ul {
             display: flex;
             flex-direction: column;
@@ -425,131 +426,68 @@ margin-top:10px;
             margin: 0;
      }
     
-     #laterali1 h1 {
-    text-align: center;
-        font-size: 4vw;
-     
-    }
-    #laterali1,
-    #laterali2 {
+     .paginas {
+        width: 90%;
+        height: 90vh;
+        margin: 0px auto;
+        border: 1px solid rgba(225, 225, 226, 0.8);
+        box-shadow: 0px 0px 10px #cccccc;
         display: flex;
-        text-align: left;
         flex-direction: column;
-        justify-content: center;
     
     }
-    
-    
-    
-    #laterali2 h2 {
-        margin-top: 20px;
-        color: white;
-        margin-left: 20px;
-    
-        font-size: 3vh;
+
+    #laterali1 h1 {
+
         text-align: center;
     
     }
-    
-    #laterali2 h3 {
-        color: #fe3b72;
-        font-size: 4vh;
-        margin-left: 20px;
-        text-align: center;
-    
-    }
-    #laterali2 p {
-        color: white;
-        font-size: 2.5vw;
-        text-align: justify;
-    
-        margin: 20px;
-    
-    
-    }
-    
     #laterali1 h2 {
-        margin-top: 10px;
-        margin-left: 10px;
-        color: white;
-        font-size: 5vw;
+
         text-align: center;
     
     }
     #boton{
         display: flex;
-        flex-wrap: wrap;
-    justify-content: center;
+        justify-content: center;
     }
-    
-    
-    #laterali1 button,
-    #laterali2 button
-     {
-        margin: 20px ;
-    
-        border-color: 100px solid black ;
-        background-color: #fcc219;
-        color: black;
-        font-size: 5vh;
-        cursor: pointer;
-    
-    
-    }
-    
-    .paginas  {   
-        flex-direction: column;
-        height: 70vh;
-        
-    }
-    #p2  {   
-        flex-direction:column-reverse;
+    .paginas1 {
+        width: 90%;
         height: 100vh;
-        text-align: center;
+        margin: 0px auto;
+        border: 1px solid rgba(225, 225, 226, 0.8);
+        box-shadow: 0px 0px 10px #cccccc;
+        display: flex;
+        flex-direction: column-reverse;
+    
     }
-    #p3  {   
-        flex-direction:column;
-        height: 180vh;
+    #laterali2 h2 {
+
         text-align: center;
-    }
-    #p4  {   
-        flex-direction:column;
-        height: 150vh;
-        text-align: center;
-    }
-    #p5  {   
-        flex-direction:column;
-        height: 70vh;
-        text-align: center;
+    
     }
     
-    #p5 h1 {   
-        font-size: 3vh;
-        height: 20vh;
+    #laterali2 h3 {
+
         text-align: center;
+    
     }
     #ordenimag {
-        cursor:pointer;
-            display: flex;
+
             flex-direction: column;
-        
-        }
-    #contacto{
-        margin-top: 10px;
-        flex-direction:column;
+                }
+ 
+    #p3{
         height: 150vh;
-        justify-content: start;
-        text-align: left;
     }
-    #contacto div{
-    
-    margin-top: 20px;
+    #p4{
+        height: 150vh;
     }
-    #contacto li{
-    
-    
-        justify-content: start;
-        text-align: left;
+
+
+    #contacto {
+        height: 200vh;
+        flex-direction: column;
+
     }
-    
-    }
+}
