@@ -5,7 +5,7 @@
     font-family: cursive;
     font-size: 62.5%;
     background-color: #401437;
-    
+
 }
 
 #contenedor {
@@ -66,7 +66,7 @@
     height: 100%;
 }
 
- 
+
 #menu a {
     text-transform: uppercase;
     color: #fcc219;
@@ -75,7 +75,7 @@
     margin-left: 10px;
     transition: all 300ms;
     border: 2px solid #fe3b72;
-border-color: 1px solid gray;
+    border-color: 1px solid gray;
     list-style: none;
 }
 
@@ -125,6 +125,7 @@ border-color: 1px solid gray;
     text-align: left;
 
 }
+
 #laterali1 h2 {
     margin-top: 20px;
     margin-left: 20px;
@@ -152,6 +153,7 @@ border-color: 1px solid gray;
     text-align: left;
 
 }
+
 #laterali2 p {
     color: white;
     font-size: 2.5vh;
@@ -166,10 +168,9 @@ border-color: 1px solid gray;
 
 
 #laterali1 button,
-#laterali2 button
- {
-    margin: 20px ;
-    border-color: 100px solid black ;
+#laterali2 button {
+    margin: 20px;
+    border-color: 100px solid black;
     background-color: #fcc219;
     color: black;
     font-size: 2vw;
@@ -220,14 +221,15 @@ img {
 
 }
 
-.paginas1 h3{
-align-items: center;
+.paginas1 h3 {
+    align-items: center;
     color: #fe3b72;
     font-size: 6vw;
 }
-.paginas1 h2{
+
+.paginas1 h2 {
     align-items: center;
-     color: white;
+    color: white;
     font-size: 2.5vw;
 }
 
@@ -252,7 +254,7 @@ align-items: center;
 }
 
 #ordenimag {
-cursor:pointer;
+    cursor: pointer;
     display: flex;
     flex-direction: row;
 
@@ -276,6 +278,7 @@ cursor:pointer;
     color: #ff702a;
 
 }
+
 .paginas2 {
     width: 90%;
     height: 70vh;
@@ -287,51 +290,57 @@ cursor:pointer;
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    
-} 
-.paginas2 div{
+
+}
+
+.paginas2 div {
 
     background-image: url("fondos.jpg");
-    background-size:80vh;
+    background-size: 80vh;
 }
-.paginas2 h1{
+
+.paginas2 h1 {
 
     font-size: 7vh;
     color: white;
-margin-top: 100px;
-    background-color:  #1a191f ;
-    background-size:30vw;
-    
-}
-.paginas2 button{
-    margin: 5px ;
+    margin-top: 100px;
+    background-color: #1a191f;
+    background-size: 30vw;
 
-    border-color: 100px solid #fe3b72 ;
+}
+
+.paginas2 button {
+    margin: 5px;
+
+    border-color: 100px solid #fe3b72;
     background-color: #d6ac5a;
     color: black;
     font-size: 5vh;
     cursor: pointer;
-    
+
 }
-#p5{
+
+#p5 {
     display: flex;
     flex-direction: row;
 }
-#fondo2{
+
+#fondo2 {
     border: 1px solid rgba(225, 225, 226, 0.8);
     margin: 30px;
     width: 50vw;
     padding: 30px;
 
-   
+
 }
 
-#fondo2 h1{
-margin-top: 60px;
-font-size: 4vw;
+#fondo2 h1 {
+    margin-top: 60px;
+    font-size: 4vw;
 }
+
 #contacto {
-    
+
     width: 90%;
     height: 50vh;
     margin: 0px auto;
@@ -342,21 +351,25 @@ font-size: 4vw;
     flex-direction: row;
     font-size: 7vh;
 }
+
 #contacto div {
     border: 1px solid rgba(225, 225, 226, 0.8);
     margin-left: 20px;
     list-style: none;
 }
+
 #contacto ul {
     list-style: none;
     font-size: 5vh;
 
     text-align: center;
 }
+
 #contacto li {
-margin-top:10px;
+    margin-top: 10px;
 
 }
+
 #contacto a {
     font-size: 10px;
     padding: 5px;
@@ -365,68 +378,91 @@ margin-top:10px;
     color: #fcc219;
     transition: all 300ms;
 }
+
 #contacto h2 {
     color: #fe3b72;
-    }
-    #menu1 a:hover {
-        border: 2px solid #087f5b;
-    
+}
+
+#menu1 a:hover {
+    border: 2px solid #087f5b;
+
+}
+#p5 h1{
+    margin-top: 10vw;
+    font-size: 5vw;
+
+}
+
+#p5 h2{
+    font-size: 3vw;
+    background-color: #d6ac5a;
+}
+
+#p1 img{
+    width: 35vw;
+}
+#p2 img{
+    width: 35vw;
+}
+@media (max-width: 720px) {
+    .checkbtn {
+        display: flex;
+        margin-top: 10px;
+
     }
 
-    @media (max-width: 720px) {
-        .checkbtn {
-            display: flex;
-            margin-top: 10px;
-    
-        }
-            #menu ul {
-            display: flex;
-            position: fixed;
-            width: 100%;
-            height: 70vh;
-    
-            top: 10vh;
-            left: 100%;
-            text-align: center;
-            flex-direction: row;
-            transition: all .5s;
-            justify-content: flex-start
-            
-        }
-            #menu ul li {
-            display: block;
-            margin: 10px 0;
-            line-height: 30px;
-        }
-           #menu ul li a {
-            margin-left: 0px;
-            font-size: 20px;
-            
-            margin-top: 50px;
-            background-color: #4a1b33;
-        }
-      
-        #check:checked~ul {
-            left: 0;
-        }
-      
-        #menu ul {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            justify-content: flex-start;
-            list-style: none;
-            height: 100%;
-            height: 50vh;
-            
-            background-color:#4a1b33;
-        }
-        #menu a {
-    font-size: 2vh;
-            margin: 0;
-     }
-    
-     .paginas {
+    #menu ul {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 70vh;
+
+        top: 10vh;
+        left: 100%;
+        text-align: center;
+        flex-direction: row;
+        transition: all .5s;
+        justify-content: flex-start
+    }
+
+    #menu ul li {
+        display: block;
+        margin: 10px 0;
+        line-height: 30px;
+    }
+
+    #menu ul li a {
+        margin-left: 0px;
+        font-size: 20px;
+
+        margin-top: 50px;
+        background-color: #4a1b33;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        list-style: none;
+        height: 40vh;
+        
+
+        background-color: #4a1b33;
+    }
+
+    #menu a {
+        font-size: 2vh;
+ 
+    }
+    #menu li {
+    margin-top: 20px;
+    }
+    .paginas {
         width: 90%;
         height: 90vh;
         margin: 0px auto;
@@ -434,23 +470,26 @@ margin-top:10px;
         box-shadow: 0px 0px 10px #cccccc;
         display: flex;
         flex-direction: column;
-    
+
     }
 
     #laterali1 h1 {
 
         text-align: center;
-    
+
     }
+
     #laterali1 h2 {
 
         text-align: center;
-    
+
     }
-    #boton{
+
+    #boton {
         display: flex;
         justify-content: center;
     }
+
     .paginas1 {
         width: 90%;
         height: 100vh;
@@ -459,35 +498,90 @@ margin-top:10px;
         box-shadow: 0px 0px 10px #cccccc;
         display: flex;
         flex-direction: column-reverse;
-    
-    }
-    #laterali2 h2 {
 
-        text-align: center;
-    
     }
-    
-    #laterali2 h3 {
 
-        text-align: center;
-    
-    }
     #ordenimag {
 
-            flex-direction: column;
-                }
- 
-    #p3{
-        height: 150vh;
+        flex-direction: column;
     }
-    #p4{
-        height: 150vh;
+
+    #p1 {
+        margin-top: 5vh;
+        height: 70vh;
+    }
+    #p1 img{
+
+        width: 70vw;
+    }
+    #p1 h1{
+        margin-top: 30px;
+        font-size: 7vw;
+    }
+    #p1 h2{
+        font-size: 5vw;
+    }
+    button{
+        width: 15vw;
+        height:5vh;
+    }
+    #p2 {
+        height: 90vh;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #p2 p{
+        font-size: 4vw;
+    }
+    #p2 img{
+
+        width: 70vw;
+    }
+    #p3 {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #p4 {
+        height: 130vh;
     }
 
 
     #contacto {
+        display: flex;
         height: 200vh;
-        flex-direction: column;
+        align-content: flex-start;
+        flex-wrap: wrap;
+
+    }
+    .paginas2 button {
+        width: 20vw;
+        height:4vh
+        
+        
+        
+    }
+    #p5{
+        height: 50vh;
+    }
+    
+    #p5 h1{
+        margin-top: 50vw;
+        font-size: 5vw;
+ 
+    }
+    
+    #p5 h2{
+        font-size: 3vw;
+        background-color: #d6ac5a;
+    }
+    img {
+
+        width: 50vw;
+
+
 
     }
 }
