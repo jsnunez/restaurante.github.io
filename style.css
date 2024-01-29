@@ -190,7 +190,7 @@ border-color: 1px solid gray;
 img {
     text-align: center;
     justify-content: center;
-    width: 70%;
+    width: 70vw;
     border: 5px solid #04c35b;
 
     height: width;
@@ -373,7 +373,7 @@ margin-top:2.5px;
 
     }
 
-    ul {
+    #menu ul {
         display: flex;
         position: fixed;
         width: 100%;
@@ -388,13 +388,13 @@ margin-top:2.5px;
         
     }
 
-    ul li {
+    #menu ul li {
         display: block;
         margin: 10px 0;
         line-height: 30px;
     }
 
-    ul li a {
+    #menu ul li a {
         margin-left: 0px;
         font-size: 20px;
         
@@ -500,10 +500,54 @@ justify-content: center;
     flex-direction: column;
     height: 70vh;
 }
-.paginas1  {   
+#p2  {   
     flex-direction:column-reverse;
     height: 100vh;
     text-align: center;
+}
+#p3  {   
+    flex-direction:column;
+    height: 180vh;
+    text-align: center;
+}
+#p4  {   
+    flex-direction:column;
+    height: 150vh;
+    text-align: center;
+}
+#p5  {   
+    flex-direction:column;
+    height: 70vh;
+    text-align: center;
+}
+
+#p5 h1 {   
+    font-size: 3vh;
+    height: 20vh;
+    text-align: center;
+}
+#ordenimag {
+    cursor:pointer;
+        display: flex;
+        flex-direction: column;
+    
+    }
+#contacto{
+    margin-top: 10px;
+    flex-direction:column;
+    height: 150vh;
+    justify-content: start;
+    text-align: left;
+}
+#contacto div{
+
+margin-top: 20px;
+}
+#contacto li{
+
+
+    justify-content: start;
+    text-align: left;
 }
 
 }
