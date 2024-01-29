@@ -15,9 +15,6 @@
     border: 1px solid rgba(225, 225, 226, 0.8);
     box-shadow: 0px 0px 10px #cccccc;
 
-
-
-
 }
 
 #header {
@@ -418,12 +415,96 @@ margin-top:2.5px;
         justify-content: flex-start;
         list-style: none;
         height: 100%;
-        height: 80vh;
+        height: 50vh;
         
         background-color:#4a1b33;
     }
     #menu a {
-
+font-size: 2vh;
         margin: 0;
  }
+
+ #laterali1 h1 {
+text-align: center;
+    font-size: 4vw;
+ 
+}
+#laterali1,
+#laterali2 {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+#laterali2 h2 {
+    margin-top: 20px;
+    color: white;
+    margin-left: 20px;
+
+    font-size: 5vh;
+    text-align: left;
+
+}
+
+#laterali2 h3 {
+    color: #fe3b72;
+    font-size: 4vh;
+    margin-left: 20px;
+    text-align: left;
+
+}
+#laterali2 p {
+    color: white;
+    font-size: 2.5vw;
+    text-align: justify;
+
+    margin: 20px;
+
+
+}
+
+#laterali1 h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+
+}
+#boton{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+}
+
+
+#laterali1 button,
+#laterali2 button
+ {
+    margin: 20px ;
+
+    border-color: 100px solid black ;
+    background-color: #fcc219;
+    color: black;
+    font-size: 5vh;
+    cursor: pointer;
+
+
+}
+
+.paginas  {   
+    flex-direction: column;
+    height: 70vh;
+}
+.paginas1  {   
+    flex-direction:column-reverse;
+
+}
+#ordenimag  {
+    flex-direction:column-reverse;
+}
 }
