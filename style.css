@@ -538,7 +538,7 @@ img {
         width: 70vw;
     }
     #p3 {
-        height: 120vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
