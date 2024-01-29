@@ -445,8 +445,8 @@ text-align: center;
     color: white;
     margin-left: 20px;
 
-    font-size: 5vh;
-    text-align: left;
+    font-size: 3vh;
+    text-align: center;
 
 }
 
@@ -454,7 +454,7 @@ text-align: center;
     color: #fe3b72;
     font-size: 4vh;
     margin-left: 20px;
-    text-align: left;
+    text-align: center;
 
 }
 #laterali2 p {
@@ -502,9 +502,8 @@ justify-content: center;
 }
 .paginas1  {   
     flex-direction:column-reverse;
+    height: 100vh;
+    text-align: center;
+}
 
-}
-#ordenimag  {
-    flex-direction:column-reverse;
-}
 }
