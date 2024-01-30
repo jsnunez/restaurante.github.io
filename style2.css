@@ -450,7 +450,7 @@ text-align: justify;
         justify-content: center;
     }
     #imagene1 img{
-        width: 40vw;
+        width: 80vw;
         margin-right: 2vw;
     }
     
@@ -459,12 +459,12 @@ text-align: justify;
         margin-top: 20px;
         margin-left: 40px;
         color: #fe3b72;
-        font-size: 5vh;
+        font-size: 3.5vh;
         text-align: center;
     }
     
     #laterali1 h2 {
-        width: 50vw;
+        width: 60vw;
         margin-top: 40px;
         margin-left:40px;
         color: white;
@@ -478,7 +478,7 @@ text-align: justify;
         background-color: #fcc219;
         border-radius: 10px;
         color: black;
-        font-size: 5vh;
+        font-size: 4vh;
         text-align: center;
     }
     
@@ -503,13 +503,13 @@ text-align: justify;
         justify-content: space-between;
     }
     #imagene2 img{
-        width: 40vw;
+        width: 80vw;
         margin-left: 2vw;
     }
     #laterali2 h3 {
 
         color: #fe3b72;
-        font-size: 2vw;
+        font-size: 3vw;
         text-align: center;
     }
     
