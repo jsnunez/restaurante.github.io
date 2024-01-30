@@ -443,11 +443,12 @@ text-align: justify;
         align-items: center;
 
     }
-    #lateral1{
+    #laterali1{
         display: flex;
         text-align: left;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
     }
     #imagene1 img{
         width: 80vw;
@@ -457,29 +458,30 @@ text-align: justify;
     #laterali1 h1 {
         width: 50vw;
         margin-top: 20px;
-        margin-left: 40px;
+        margin-left: 0px;
         color: #fe3b72;
         font-size: 3.5vh;
         text-align: center;
+
     }
     
     #laterali1 h2 {
-        width: 60vw;
+        width: 70vw;
         margin-top: 40px;
-        margin-left:40px;
+        margin-left:0px;
         color: white;
         font-size: 4vh;
-        text-align: justify;
+        text-align: center;
     }
     
     #laterali1 button {
         margin-top: 40px;
-        margin-left:40px;
+        margin-left:0px;
         background-color: #fcc219;
         border-radius: 10px;
         color: black;
         font-size: 4vh;
-        text-align: center;
+
     }
     
     #p2{
@@ -509,37 +511,38 @@ text-align: justify;
     #laterali2 h3 {
 
         color: #fe3b72;
-        font-size: 3vw;
+        font-size: 7vw;
         text-align: center;
+        margin-left: 0px;
     }
     
     #laterali2 h2 {
-        width: 40vw;
-
+        width: 70vw;
+margin-left: 0px;
         color: white;
-        font-size: 3vw;
+        font-size: 9vw;
         text-align: center;
     }
     
     #laterali2 p {
-        width: 50vw;
-
+        width: 60vw;
+        margin-left: 0px;
         color: white;
-        font-size: 2vw;
+        font-size: 4vw;
         text-align: justify;
     }
     #laterali2 button {
         margin-top: 40px;
-        margin-left:40px;
+        margin-left:0px;
         background-color: #fcc219;
         border-radius: 10px;
         color: black;
-        font-size: 3vw;
-        text-align: left;
+        font-size: 4vh;
+
     }
     
     #p3{
-        height:100vh;
+        height:auto;
         margin-top: 0vh;
         margin-left: 5vw;
         display: flex;
@@ -554,7 +557,7 @@ text-align: justify;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin-left: 10vw;
+        margin-left: 0vw;
         text-align: center;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -571,7 +574,7 @@ text-align: justify;
         margin-bottom: 5VH;
         margin-left: 5vw;
         color: white;
-        font-size: 3vw;
+        font-size: 4vw;
         text-align:center;
     }
     #p3 h3{
@@ -579,24 +582,27 @@ text-align: justify;
         margin-left: 5vw;
     
         color: #fe3b72;
-        font-size: 3vw;
+        font-size: 10vw;
         text-align: center;
     }
     #p3 h4{
      
         color: white;
-        font-size: 2vw;
+        font-size:5vw;
     
     }
     #p3 h5{
     
         color: #fe3b72;
-        font-size: 2vw;
+        font-size: 5vw;
     
     }
-    
+    #p3 p{
+        color: white;
+        font-size: 4vw;
+    }
     #p4{
-        height: 120vh;
+        height: auto;
         margin-top: 0vh;
         margin-left: 5vw;
         display: flex;
@@ -610,7 +616,7 @@ text-align: justify;
         display: flex;
         align-items: flex-start;
         justify-content: space-around;
-        margin-left: 10vw;
+        margin-left: 0vw;
         text-align: center;
         flex-direction: column;
      }
@@ -624,30 +630,33 @@ text-align: justify;
     #p4 h2{
         margin-top: 5vh;
         margin-bottom: 5VH;
-        margin-left: 15vw;
+        margin-left: 0;
         color: white;
-        font-size: 2vw;
+        font-size: 5vw;
         text-align:center;
     }
     #p4 h3{
         margin-top: 5vh;
-        margin-left: 5vw;
+        margin-left: 0vw;
     
         color:#fe3b72;
-        font-size: 2.5vw;
+        font-size: 5vw;
         text-align: center;
     }
     #p4 h4{
       
         color: white;
-        font-size: 2vw;
+        font-size: 5vw;
+        margin-top: 5vh;
     
     }
     #p4 p{
-    width: 50vw;
-        margin-left: 20px;
+    width: 70vw;
+        margin-left: 0px;
+
+        margin-top: 5vh;
     color: #ff702a;
-    font-size: 1.5vw;
+    font-size: 4vw;
     text-align: justify;
     margin-bottom: 5vh;
     }
@@ -662,7 +671,7 @@ text-align: justify;
     }
     
     #p3  img{
-        width: 20vw;
+        width: 60vw;
         
     }
     #p4  img{
