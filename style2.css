@@ -433,7 +433,7 @@ text-align: justify;
 
     #p1{
         margin-left: 5vw;
-        height: 90vh;
+        height: auto;
         width: 90vw;
         display: flex;
         flex-direction: column;
@@ -486,7 +486,7 @@ text-align: justify;
     
     #p2{
         margin-left: 5vw;
-        height: 100vh;
+        height: auto;
         width: 90vw;
         display: flex;
         flex-direction: column-reverse;
