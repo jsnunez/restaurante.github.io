@@ -299,9 +299,10 @@ margin-left: 5vw;
 #p5 {
     margin-left: 5VW;
     width: 90vw;
-    height: 90vh;
+    height: auto;
     display: flex;
     flex-direction: column;
+    padding-bottom: 20vh;
     align-items: center;
 }
 
@@ -870,8 +871,8 @@ footer {
     }
 
     footer {
-        height: 130vh;
-
+        height: auto;
+        
         display: flex;
         flex-direction: column;
     }
