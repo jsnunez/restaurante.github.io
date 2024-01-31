@@ -2,20 +2,17 @@
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 62.5%;
     background-color: #401437;
- 
-}
-body{
-    background-image: url(fon.jpg); 
-
 }
 
 #contenedor {
-    width: 90vw;
+    width: 90%;
     height: 100%;
-margin-left: 5vw;
+    margin: 0px auto;
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    box-shadow: 0px 0px 10px #cccccc;
 
 }
 
@@ -27,6 +24,7 @@ margin-left: 5vw;
     flex-wrap: nowrap;
     margin: 0px auto;
     align-items: center;
+    border-bottom: 1px solid rgba(225, 225, 226, 0.8);
 }
 
 #logo {
@@ -74,6 +72,7 @@ margin-left: 5vw;
     margin-left: 10px;
     transition: all 300ms;
     border: 2px solid #fe3b72;
+    border-color: 1px solid gray;
     list-style: none;
 }
 
@@ -81,16 +80,15 @@ margin-left: 5vw;
     border: 2px solid #087f5b;
 
 }
-
 #check {
     display: none;
 }
 
-.checkbtn {
+.checkbtn{
     display: none;
 }
 
-#p1 {
+#p1{
     margin-left: 5vw;
     height: 90vh;
     width: 90vw;
@@ -98,16 +96,15 @@ margin-left: 5vw;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    border: 1px solid rgba(225, 225, 226, 0.8);
 }
-
-#lateral1 {
+#lateral1{
     display: flex;
     text-align: left;
     flex-direction: column;
     justify-content: center;
 }
-
-#imagene1 img {
+#imagene1 img{
     width: 40vw;
     margin-right: 2vw;
 }
@@ -122,7 +119,7 @@ margin-left: 5vw;
 
 #laterali1 h2 {
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left:40px;
     color: white;
     font-size: 3vw;
     text-align: left;
@@ -130,7 +127,7 @@ margin-left: 5vw;
 
 #laterali1 button {
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left:40px;
     background-color: #fcc219;
     border-radius: 10px;
     color: black;
@@ -138,7 +135,7 @@ margin-left: 5vw;
     text-align: left;
 }
 
-#p2 {
+#p2{
     margin-left: 5vw;
     height: 100vh;
     width: 90vw;
@@ -146,14 +143,12 @@ margin-left: 5vw;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-
+    border: 1px solid rgba(225, 225, 226, 0.8);
 }
-
-#imagene2 img {
+#imagene2 img{
     width: 40vw;
     margin-left: 2vw;
 }
-
 #laterali2 h3 {
     margin-top: 20px;
     margin-left: 40px;
@@ -164,7 +159,7 @@ margin-left: 5vw;
 
 #laterali2 h2 {
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left:40px;
     color: white;
     font-size: 3vw;
     text-align: left;
@@ -172,15 +167,14 @@ margin-left: 5vw;
 
 #laterali2 p {
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left:40px;
     color: white;
     font-size: 1vw;
     text-align: left;
 }
-
 #laterali2 button {
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left:40px;
     background-color: #fcc219;
     border-radius: 10px;
     color: black;
@@ -188,44 +182,35 @@ margin-left: 5vw;
     text-align: left;
 }
 
-#p3 {
+#p3{
     height: 100vh;
     display: flex;
-    margin-left: 5VW;
     width: 90vw;
     flex-direction: column;
     justify-content: center;
 }
 
 #ordenimag {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-     text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 10vw;
+   text-align: center;
 }
 
 #ordenimag div {
-    padding: 20px;
-    border: 5px solid #087f5b;
-}
-
-#p3 h2 {
-  
+padding: 20px;
+border: 5px solid #087f5b;
+ }
+#p3 h2{
+    margin-top: 5vh;
     margin-bottom: 15VH;
-
+    margin-left: 5vw;
     color: white;
     font-size: 3vw;
-    text-align: center;
+    text-align:center;
 }
-#p3 p {
-
-    color: white;
-    font-size: 2vw;
-    text-align: center;
-}
-
-#p3 h3 {
+#p3 h3{
 
     margin-left: 5vw;
 
@@ -233,88 +218,80 @@ margin-left: 5vw;
     font-size: 3vw;
     text-align: center;
 }
-
-#p3 h4 {
-
+#p3 h4{
+ 
     color: white;
     font-size: 2vw;
 
 }
-
-#p3 h5 {
+#p3 h5{
 
     color: #fe3b72;
     font-size: 2vw;
 
 }
 
-#p4 {
-    margin-left: 5VW;
+#p4{
     height: 100vh;
     display: flex;
     width: 90vw;
     flex-direction: column;
     justify-content: center;
 }
-
 #ordenimag1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
- 
+    margin-left: 10vw;
     text-align: center;
-}
+ }
+ 
 
-
-#p4 h2 {
+#p4 h2{
     margin-top: 5vh;
     margin-bottom: 5VH;
+    margin-left: 15vw;
     color: white;
     font-size: 2vw;
-    text-align: center;
+    text-align:center;
 }
+#p4 h3{
 
-#p4 h3 {
+    margin-left: 5vw;
 
-    color: #fe3b72;
+    color:#fe3b72;
     font-size: 2.5vw;
     text-align: center;
 }
-
-#p4 h4 {
-
+#p4 h4{
+  
     color: white;
     font-size: 2vw;
 
 }
-
-#p4 p {
+#p4 p{
 
     margin-left: 20px;
-    color: #ff702a;
-    font-size: 1.5vw;
-    text-align: justify;
+color: #ff702a;
+font-size: 1.5vw;
+text-align: justify;
 }
 
-#p5 {
-    margin-left: 5VW;
-    width: 90vw;
+#p5{
     height: 90vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+        align-items: center;
 }
 
-#p3 img {
+#p3  img{
     width: 20vw;
-
+    
 }
-
-#p4 img {
+#p4  img{
     width: 15vw;
-
+    
 }
-
 #p5 h1 {
     margin-top: 10vh;
     font-size: 4vw;
@@ -330,7 +307,9 @@ margin-left: 5vw;
 
     width: 90%;
     height: 60vh;
-
+    margin: 0px auto;
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    box-shadow: 0px 0px 10px #cccccc;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -338,12 +317,9 @@ margin-left: 5vw;
 }
 
 #contacto div {
+    border: 1px solid rgba(225, 225, 226, 0.8);
     margin-left: 20px;
     list-style: none;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 #contacto ul {
@@ -361,6 +337,7 @@ margin-left: 5vw;
 #contacto a {
     font-size: 2vw;
     padding: 5px;
+    border: 1px solid #fe3b72;
     color: #fcc219;
     transition: all 300ms;
 }
@@ -374,6 +351,7 @@ margin-left: 5vw;
 #fondo2 {
     display: flex;
 
+    border: 1px solid rgba(225, 225, 226, 0.8);
     margin: 30px;
     width: 50vw;
     padding: 30px;
@@ -385,48 +363,15 @@ margin-left: 5vw;
 #fondo2 h1 {
     margin-top: 60px;
     font-size: 4vw;
-    background-color: #1a191f;
-    color: white;
-    text-align: justify;
+    background-color:#1a191f;
+color: white;
+text-align: justify;
 }
 
 #p5 div {
 
     background-image: url("fondos.jpg");
     background-size: 80vh;
-}
-
-footer {
-    display: flex;
-    margin-left: 5VW;
-    width: 90vw;
-}
-
-#menus2con {
-    margin-left: -10vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#menus2con ul {
-    display: flex;
-    flex-direction: row;
-    margin-top: 1vh;
-
-}
-
-#menus2con img {
-    width: 5vw;
-    margin-left: 1vw;
-}
-
-#menus2con h2 {
-
-    text-align: center;
-    font-size: 2vw;
-    color: #fe3b72;
-    float: left;
 }
 
 
@@ -440,22 +385,19 @@ footer {
         margin-right: vw;
     }
 
-    #logo h1{
-        font-size: 5vw;
-    }
     #menu ul {
         display: flex;
         position: fixed;
         width: 100%;
-        height: auto;
-        padding-top: 5vh;
+        height: 70vh;
+
         top: 10vh;
         left: 100%;
         text-align: center;
         flex-direction: column;
         transition: all .5s;
         justify-content: flex-start;
-
+        
         background-color: #4a1b33;
     }
 
@@ -478,10 +420,7 @@ footer {
         left: 0;
     }
 
-    #menu a:hover {
-        border: 2px solid #087f5b;
-    
-    }
+
 
     #menu a {
         font-size: 2vh;
@@ -492,75 +431,70 @@ footer {
         margin-top: 20px;
     }
 
-    #p1 {
+    #p1{
         margin-left: 5vw;
-        height: auto;
+        height: 55vh;
         width: 90vw;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-
+        border: 1px solid rgba(225, 225, 226, 0.8);
         align-content: center;
         align-items: center;
 
     }
-
-    #laterali1 {
+    #lateral1{
         display: flex;
         text-align: left;
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+        justify-content: center;
     }
-
-    #imagene1 img {
-        width: 80vw;
+    #imagene1 img{
+        width: 40vw;
         margin-right: 2vw;
-        margin-bottom: 10vh;
     }
-
+    
     #laterali1 h1 {
         width: 50vw;
         margin-top: 20px;
-        margin-left: 0px;
+        margin-left: 40px;
         color: #fe3b72;
-        font-size: 3.5vh;
+        font-size: 4vw;
         text-align: center;
-
     }
-
+    
     #laterali1 h2 {
-        width: 70vw;
+        width: 50vw;
         margin-top: 40px;
-        margin-left: 0px;
+        margin-left:40px;
         color: white;
-        font-size: 4vh;
-        text-align: center;
+        font-size: 3vw;
+        text-align: justify;
     }
-
+    
     #laterali1 button {
         margin-top: 40px;
-        margin-left: 0px;
-        margin-bottom: 10vh;
+        margin-left:40px;
         background-color: #fcc219;
         border-radius: 10px;
         color: black;
-        font-size: 4vh;
-
+        font-size: 3vw;
+        text-align: left;
     }
-
-    #p2 {
+    
+    #p2{
         margin-left: 5vw;
-        height: auto;
+        height: 66vh;
         width: 90vw;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-evenly;
+        border: 1px solid rgba(225, 225, 226, 0.8);
         align-content: stretch;
         align-items: center;
     }
 
-    #laterali2 {
+    #laterali2{
         display: flex;
         display: flex;
         flex-direction: column;
@@ -568,210 +502,188 @@ footer {
         align-content: center;
         justify-content: space-between;
     }
-
-    #imagene2 img {
-        width: 80vw;
+    #imagene2 img{
+        width: 40vw;
         margin-left: 2vw;
     }
-
     #laterali2 h3 {
 
         color: #fe3b72;
-        font-size: 7vw;
+        font-size: 2vw;
         text-align: center;
-        margin-left: 0px;
     }
-
+    
     #laterali2 h2 {
-        width: 70vw;
-        margin-left: 0px;
+        width: 40vw;
+
         color: white;
-        font-size: 9vw;
+        font-size: 3vw;
         text-align: center;
     }
-
+    
     #laterali2 p {
-        width: 60vw;
-        margin-left: 0px;
+        width: 50vw;
+
         color: white;
-        font-size: 4vw;
+        font-size: 2vw;
         text-align: justify;
     }
-
     #laterali2 button {
         margin-top: 40px;
-        margin-left: 0px;
-        margin-bottom: 10vh;
+        margin-left:40px;
         background-color: #fcc219;
         border-radius: 10px;
         color: black;
-        font-size: 4vh;
-
+        font-size: 3vw;
+        text-align: left;
     }
-
-    #p3 {
-        height: auto;
+    
+    #p3{
+        height: 70vh;
         margin-top: 0vh;
         margin-left: 5vw;
         display: flex;
         width: 90vw;
         flex-direction: column;
         justify-content: flex-start;
-
+        
+        border: 1px solid rgba(225, 225, 226, 0.8);
     }
-
+    
     #ordenimag {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin-left: 0vw;
+        margin-left: 10vw;
         text-align: center;
         flex-direction: column;
         flex-wrap: nowrap;
-
+ 
     }
-
+    
     #ordenimag div {
-        padding: 20px;
-        margin-bottom: 5vw;
-        border: 5px solid #087f5b;
-    }
-
-    #p3 h2 {
+    padding: 20px;
+    margin-bottom: 5vw;
+    border: 5px solid #087f5b;
+     }
+    #p3 h2{
         margin-top: 5vh;
         margin-bottom: 5VH;
         margin-left: 5vw;
         color: white;
-        font-size: 4vw;
-        text-align: center;
+        font-size: 3vw;
+        text-align:center;
     }
-
-    #p3 h3 {
+    #p3 h3{
         margin-top: 5vh;
         margin-left: 5vw;
-
+    
         color: #fe3b72;
-        font-size: 10vw;
+        font-size: 3vw;
         text-align: center;
     }
-
-    #p3 h4 {
-
+    #p3 h4{
+     
         color: white;
-        font-size: 5vw;
-
+        font-size: 2vw;
+    
     }
-
-    #p3 h5 {
-
+    #p3 h5{
+    
         color: #fe3b72;
-        font-size: 5vw;
-
+        font-size: 2vw;
+    
     }
-
-    #p3 p {
-        color: white;
-        font-size: 4vw;
-    }
-
-    #p4 {
-        height: auto;
+    
+    #p4{
+        height: 90vh;
         margin-top: 0vh;
         margin-left: 5vw;
         display: flex;
         width: 90vw;
         flex-direction: column;
         justify-content: flex-start;
-
+        border: 1px solid rgba(225, 225, 226, 0.8);
     }
-
     #ordenimag1 {
-
+     
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-around;
-        margin-left: 0vw;
+        margin-left: 10vw;
         text-align: center;
         flex-direction: column;
-    }
-
-    .vertical {
+     }
+     
+    .vertical{    
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
     }
-
-    #p4 h2 {
+    #p4 h2{
         margin-top: 5vh;
         margin-bottom: 5VH;
-        margin-left: 0;
+        margin-left: 15vw;
         color: white;
-        font-size: 5vw;
+        font-size: 2vw;
+        text-align:center;
+    }
+    #p4 h3{
+        margin-top: 5vh;
+        margin-left: 5vw;
+    
+        color:#fe3b72;
+        font-size: 2.5vw;
         text-align: center;
     }
-
-    #p4 h3 {
-        margin-top: 5vh;
-        margin-left: 0vw;
-
-        color: #fe3b72;
-        font-size: 5vw;
-        text-align: center;
-    }
-
-    #p4 h4 {
-        width: 70vw;
+    #p4 h4{
+      
         color: white;
-        font-size: 6vw;
-        margin-top: 5vh;
-
+        font-size: 2vw;
+    
     }
-
-    #p4 p {
-        width: 70vw;
-        margin-left: 0px;
-
-        margin-top: 5vh;
-        color: #ff702a;
-        font-size: 5vw;
-        text-align: justify;
-        margin-bottom: 5vh;
+    #p4 p{
+    width: 50vw;
+        margin-left: 20px;
+    color: #ff702a;
+    font-size: 1.5vw;
+    text-align: justify;
+    margin-bottom: 5vh;
     }
-
-    #p5 {
-        height: auto;
+    
+    #p5{
+        height: 30vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
+           align-items: center;
+        border: 1px solid rgba(225, 225, 226, 0.8);
 
     }
-
-    #p3 img {
-        width: 60vw;
-
+    
+    #p3  img{
+        width: 20vw;
+        
     }
-
-    #p4 img {
-        width: 60vw;
-
+    #p4  img{
+        width: 30vw;
+        
     }
-
     #p5 h1 {
-        margin-top: 5vh;
+        margin-top: 10vh;
         font-size: 4vw;
-
+    
     }
-
+    
     #p5 h2 {
         font-size: 3vw;
         background-color: #d6ac5a;
     }
-
+    
     #contacto {
-
+    
         width: 90%;
-        height: auto;
+        height: 150vh;
         margin: 0px auto;
         display: flex;
         justify-content: flex-start;
@@ -779,102 +691,71 @@ footer {
         font-size: 7vh;
         align-items: flex-start;
     }
-
+    
     #contacto div {
         margin-left: 20px;
         list-style: none;
-        display: flex;
-        flex-direction: column;
     }
-
+    
     #contacto ul {
         list-style: none;
-
-
+    
+    
         text-align: center;
     }
-
-
-
-    #contacto a {
-        float: left;
-        border: none;
-        font-size: 2vh;
-        color: #fcc219;
-        transition: none;
+    
+    #contacto li {
+        margin-top: 20px;
+    
     }
-
+    
+    #contacto a {
+        display: flex;
+        width: 20vw;
+        font-size: 2vw;
+        padding: 5px;
+        border: 1px solid #fe3b72;
+        color: #fcc219;
+        transition: all 300ms;
+    }
+    
     #contacto h2 {
         margin-top: 5vh;
-        text-align: left;
-        font-size: 4vw;
+        text-align: center;
+        font-size: 2vw;
         color: #fe3b72;
     }
-
+    
     #fondo2 {
         display: flex;
+    
+        border: 1px solid rgba(225, 225, 226, 0.8);
         margin: 30px;
         width: 50vw;
         padding: 30px;
-
+    
         flex-direction: column;
-
+    
     }
-
+    
     #fondo2 h1 {
-        margin-top: 6vh;
+        margin-top: 60px;
         font-size: 4vw;
-        background-color: #1a191f;
-        color: white;
-        text-align: justify;
+        background-color:#1a191f;
+    color: white;
+    text-align: justify;
     }
-
+    
     #p5 div {
-
+    
         background-image: url("fondos.jpg");
         background-size: 40vh;
     }
 
-    #contacto img {
+    #contacto img{
         display: flex;
         flex-direction: row;
-
-      
-
+        
     }
-
-    #menus2con {
-  
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-  
-    }
-
-    #menus2con ul {
-        display: flex;
-        flex-direction: row;
-        cursor: pointer;
-
-    }
-
-    #menus2con h2 {
-
-
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-        font-size: 4vw;
-        color: #fe3b72;
-
-        text-align: justify;
-    }
-
-    footer {
-        height: 130vh;
-
-        display: flex;
-        flex-direction: column;
-    }
-
-
+    
 }
