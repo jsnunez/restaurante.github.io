@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
 * {
     text-decoration: none;
     margin: 0px;
@@ -7,6 +9,7 @@
     background-color: #401437;
  
 }
+
 body{
     background-image: url(fon.jpg); 
 
@@ -15,14 +18,14 @@ body{
 #contenedor {
     width: 90vw;
     height: 100%;
-margin-left: 5vw;
+    margin-left: 5vw;
 
 }
 .fa-bars:before {
     color: #fe3b72;
 }
 #header {
-
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -35,14 +38,15 @@ margin-left: 5vw;
     width: 40%;
     flex-grow: 1;
     flex-basis: 50%;
-    font-family: Helvetica;
-    font-style: italic;
     font-size: 5vw;
     padding: 10px;
     margin-left: 10px;
-    text-transform: uppercase;
     color: #fe3b72;
 
+}
+
+#logo h1 {
+    font-family: 'Permanent Marker', cursive;
 }
 
 #menulogo {
@@ -107,9 +111,11 @@ margin-left: 5vw;
     text-align: left;
     flex-direction: column;
     justify-content: center;
+
 }
 
 #imagene1 img {
+    border-radius: 4.5rem;
     width: 40vw;
     margin-right: 2vw;
 }
@@ -133,11 +139,14 @@ margin-left: 5vw;
 #laterali1 button {
     margin-top: 40px;
     margin-left: 40px;
+    box-shadow: 0 0 20px #fcc219;
     background-color: #fcc219;
-    border-radius: 10px;
-    color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10rem;
     font-size: 3vw;
     text-align: left;
+    padding: 2.5rem;
 }
 
 #p2 {
@@ -152,6 +161,7 @@ margin-left: 5vw;
 }
 
 #imagene2 img {
+    border-radius: 3.5rem;
     width: 40vw;
     margin-left: 2vw;
 }
@@ -183,10 +193,13 @@ margin-left: 5vw;
 #laterali2 button {
     margin-top: 40px;
     margin-left: 40px;
+    box-shadow: 0 0 20px #fcc219;
     background-color: #fcc219;
-    border-radius: 10px;
-    color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10rem;
     font-size: 3vw;
+    padding: 2.5rem;
     text-align: left;
 }
 
@@ -606,7 +619,7 @@ footer {
         margin-left: 0px;
         margin-bottom: 10vh;
         background-color: #fcc219;
-        border-radius: 10px;
+        border-radius: 10rem;
         color: black;
         font-size: 4vh;
 
