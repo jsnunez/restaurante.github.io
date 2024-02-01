@@ -18,7 +18,9 @@ body{
 margin-left: 5vw;
 
 }
-
+.fa-bars:before {
+    color: #fe3b72;
+}
 #header {
 
     display: flex;
