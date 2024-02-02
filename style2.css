@@ -220,10 +220,47 @@ body{
      text-align: center;
 }
 
-#ordenimag div {
+
+.separarcar {
     padding: 20px;
     border: 5px solid #087f5b;
+    display: flex;
+    border-radius: 10%;
+    flex-direction: row
 }
+
+
+.separarcar div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.borrar{
+    margin-top: -2vh;
+    margin-left: -4vw;
+        justify-content: center;
+    align-items: center;
+    width: 0px;
+    height: 0px;
+    cursor: pointer;
+}
+.separarcar span{
+  
+    height: 2vh;
+    width: 2vw;;
+    padding: 2vw 2vw 2vw 2vw;
+
+    color:#ff702a;;
+    border-radius: 100%;
+    border:3px solid #ff702a;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #p3 h2 {
   
@@ -454,6 +491,7 @@ footer {
         justify-content: flex-end;
         font-size: 10vw;
         margin-right: vw;
+        cursor: pointer;
     }
 
     #logo h1{
@@ -647,10 +685,44 @@ footer {
 
     }
 
-    #ordenimag div {
+    .separarcar {
         padding: 20px;
-        margin-bottom: 5vw;
         border: 5px solid #087f5b;
+        display: flex;
+        
+        flex-direction: row;
+        margin-top: 2VH;
+    }
+    
+    
+    .separarcar div{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .borrar{
+        margin-top: -1vh;
+        margin-left: -4vw;
+            justify-content: center;
+        align-items: center;
+        width: 0px;
+        height: 0px;
+        cursor: pointer;
+    }
+    .separarcar span{
+      
+        height: 22vh;
+        width: 8vw;
+        padding: 2vw 2vw 2vw 2vw;
+        color: #ff702a;
+        border-radius: 100%;
+        border: 3px solid #ff702a;
+        font-size: 8vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #p3 h2 {
