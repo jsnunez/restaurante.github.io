@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
 * {
     text-decoration: none;
     margin: 0px;
@@ -124,15 +126,16 @@ body{
     margin-top: 20px;
     margin-left: 40px;
     color: #fe3b72;
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: left;
+    font-family: 'Single Day', cursive;
 }
 
 #laterali1 h2 {
     margin-top: 40px;
     margin-left: 40px;
     color: white;
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: left;
 }
 
@@ -170,8 +173,9 @@ body{
     margin-top: 20px;
     margin-left: 40px;
     color: #fe3b72;
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: left;
+    font-family: 'Single Day', cursive;
 }
 
 #laterali2 h2 {
@@ -282,8 +286,9 @@ body{
     margin-left: 5vw;
 
     color: #fe3b72;
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: center;
+    font-family: 'Single Day', cursive;
 }
 
 #p3 h4 {
@@ -327,9 +332,9 @@ body{
 }
 
 #p4 h3 {
-
+    font-family: 'Single Day', cursive;
     color: #fe3b72;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     text-align: center;
 }
 
@@ -590,7 +595,7 @@ footer {
         margin-top: 20px;
         margin-left: 0px;
         color: #fe3b72;
-        font-size: 3.5vh;
+        font-size: 4.5vh;
         text-align: center;
 
     }
@@ -600,7 +605,7 @@ footer {
         margin-top: 40px;
         margin-left: 0px;
         color: white;
-        font-size: 4vh;
+        font-size: 3vh;
         text-align: center;
     }
 
@@ -609,9 +614,9 @@ footer {
         margin-left: 0px;
         margin-bottom: 10vh;
         background-color: #fcc219;
-        border-radius: 10px;
+        border-radius: 10rem;
         color: black;
-        font-size: 4vh;
+        font-size: 3vh;
 
     }
 
@@ -671,7 +676,7 @@ footer {
         background-color: #fcc219;
         border-radius: 10rem;
         color: black;
-        font-size: 4vh;
+        font-size: 3vh;
 
     }
 
