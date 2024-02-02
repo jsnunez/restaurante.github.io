@@ -481,8 +481,20 @@ footer {
     color: #fe3b72;
     float: left;
 }
+.bxl-facebook-square{
+    font-size: 5vw;
 
+    color:#fcc219;
+}
 
+.bxl-instagram-alt{
+    font-size: 5vw;
+    color:#fcc219;
+}
+.bxl-whatsapp{
+    font-size: 5vw;
+    color:#fcc219;
+}
 
 @media (max-width: 720px) {
     .checkbtn {
