@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 * {
     text-decoration: none;
     margin: 0px;
@@ -9,11 +11,11 @@
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
     background-color: #401437;
- 
+
 }
 
-body{
-    background-image: url(fon.jpg); 
+body {
+    background-image: url(fon.jpg);
 
 }
 
@@ -23,9 +25,11 @@ body{
     margin-left: 5vw;
 
 }
+
 .fa-bars:before {
     color: #fe3b72;
 }
+
 #header {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -82,6 +86,7 @@ body{
     margin-left: 10px;
     transition: all 300ms;
     border: 2px solid #fe3b72;
+    border-radius: 20%;
     list-style: none;
 }
 
@@ -220,8 +225,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-     text-align: center;
+
+    text-align: center;
 }
 
 
@@ -234,31 +239,34 @@ body{
 }
 
 
-.separarcar div{
+.separarcar div {
     padding: 20px;
     display: flex;
     flex-direction: column;
-   
+
 }
 
-.borrar{
+.borrar {
     margin-top: -2vh;
     margin-left: -4vw;
-        justify-content: center;
+    justify-content: center;
     align-items: center;
     width: 0px;
     height: 0px;
     cursor: pointer;
 }
-.separarcar span{
-  
+
+.separarcar span {
+
     height: 2vh;
-    width: 2vw;;
+    width: 2vw;
+    ;
     padding: 2vw 2vw 2vw 2vw;
 
-    color:#ff702a;;
+    color: #ff702a;
+    ;
     border-radius: 100%;
-    border:3px solid #ff702a;
+    border: 3px solid #ff702a;
     font-size: 3vw;
     display: flex;
     justify-content: center;
@@ -267,13 +275,14 @@ body{
 
 
 #p3 h2 {
-  
+
     margin-bottom: 15VH;
 
     color: white;
     font-size: 3vw;
     text-align: center;
 }
+
 #p3 p {
 
     color: white;
@@ -318,7 +327,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
- 
+
     text-align: center;
 }
 
@@ -365,12 +374,13 @@ body{
 
 #p3 img {
     width: 20vw;
-
+    margin-bottom: 2vh;
 }
 
 #p4 img {
     width: 15vw;
-
+   border-radius: 1rem;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 #p5 h1 {
@@ -379,11 +389,29 @@ body{
 
 }
 
-#p5 h2 {
+#p5 button {
+    width: 30vw;
+    height: 10vh;
+    
+    display: flex;
     font-size: 3vw;
     background-color: #d6ac5a;
+    box-shadow: 0 0 20px #fcc219;
+    background-color: #fcc219;
+    color: white;
+    font-weight: bold;
+    border-radius: 10rem;
+    font-size: 3vw;
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: 	center;
+
 }
 
+#p5 h2{
+background-color: #fcc219;
+}
 #contacto {
 
     width: 90%;
@@ -431,11 +459,14 @@ body{
 
 #fondo2 {
     display: flex;
+    align-items: center;
 
     margin: 30px;
     width: 50vw;
     padding: 30px;
-
+  
+   border-radius: 3rem;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     flex-direction: column;
 
 }
@@ -453,11 +484,33 @@ body{
     background-image: url("fondos.jpg");
     background-size: 80vh;
 }
+#p5 button {
+    margin-top: 1vh;
+    width: 30vw;
+    height: 5vh;
+    
+    display: flex;
+    font-size: 3vw;
+    background-color: #d6ac5a;
+    box-shadow: 0 0 20px #fcc219;
+    background-color: #fcc219;
+    color: white;
+    font-weight: bold;
+    border-radius: 10rem;
+    font-size: 3vw;
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: 	center;
+
+}
 
 footer {
     display: flex;
     margin-left: 5VW;
     width: 90vw;
+    height: auto;
+    margin-bottom: 10vh;
 }
 
 #menus2con {
@@ -486,20 +539,28 @@ footer {
     color: #fe3b72;
     float: left;
 }
-.bxl-facebook-square{
+
+.bxl-facebook-square {
     font-size: 5vw;
 
-    color:#fcc219;
+    color: #fcc219;
 }
 
-.bxl-instagram-alt{
+.bxl-instagram-alt {
     font-size: 5vw;
-    color:#fcc219;
+    color: #fcc219;
 }
-.bxl-whatsapp{
+
+.bxl-whatsapp {
     font-size: 5vw;
-    color:#fcc219;
+    color: #fcc219;
 }
+
+#contacto a:hover {
+
+    color: #087f5b;
+}
+
 
 @media (max-width: 720px) {
     .checkbtn {
@@ -511,9 +572,10 @@ footer {
         cursor: pointer;
     }
 
-    #logo h1{
+    #logo h1 {
         font-size: 5vw;
     }
+
     #menu ul {
         display: flex;
         position: fixed;
@@ -546,12 +608,12 @@ footer {
     }
 
     #check:checked~ul {
-        left: 0;
+        left: 0;      
     }
 
     #menu a:hover {
         border: 2px solid #087f5b;
-    
+     
     }
 
     #menu a {
@@ -706,30 +768,31 @@ footer {
         padding: 20px;
         border: 5px solid #087f5b;
         display: flex;
-        
+
         flex-direction: row;
         margin-top: 2VH;
     }
-    
-    
-    .separarcar div{
+
+
+    .separarcar div {
         padding: 20px;
         display: flex;
         flex-direction: column;
-       
+
     }
-    
-    .borrar{
+
+    .borrar {
         margin-top: -1vh;
         margin-left: -4vw;
-            justify-content: center;
+        justify-content: center;
         align-items: center;
         width: 0px;
         height: 0px;
         cursor: pointer;
     }
-    .separarcar span{
-      
+
+    .separarcar span {
+
         height: 22vh;
         width: 8vw;
         padding: 2vw 2vw 2vw 2vw;
@@ -904,15 +967,16 @@ footer {
     #contacto a {
         float: left;
         border: none;
-        font-size: 2vh;
+        font-size: 3vh;
         color: #fcc219;
         transition: none;
     }
 
+
     #contacto h2 {
         margin-top: 5vh;
         text-align: left;
-        font-size: 4vw;
+        font-size: 4vh;
         color: #fe3b72;
     }
 
@@ -944,7 +1008,7 @@ footer {
         display: flex;
         flex-direction: row;
 
-      
+
 
     }
 
@@ -953,7 +1017,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-  
+
     }
 
     #menus2con ul {
@@ -976,7 +1040,7 @@ footer {
 
     footer {
         height: auto;
-        
+
         display: flex;
         flex-direction: column;
     }
