@@ -155,7 +155,11 @@ body {
     font-size: 3vw;
     text-align: left;
     padding: 2.5rem;
+    cursor: pointer;
 }
+#laterali1 button:hover {
+    font-size: 3.3vw;
+    }
 
 #p2 {
     margin-left: 5vw;
@@ -210,8 +214,11 @@ body {
     font-size: 3vw;
     padding: 2.5rem;
     text-align: left;
+    cursor: pointer;
 }
-
+#laterali2 button:hover {
+font-size: 3.3vw;
+}
 #p3 {
     height: 100vh;
     display: flex;
@@ -408,6 +415,9 @@ body {
     justify-content: 	center;
 
 }
+#p5 button:hover {
+    font-size: 3.3vw;
+}
 
 #p5 h2{
 background-color: #fcc219;
@@ -560,7 +570,21 @@ footer {
 
     color: #087f5b;
 }
+.bxl-facebook-square:hover {
+    font-size: 5vw;
 
+    color: #087f5b;
+}
+
+.bxl-instagram-alt:hover{
+    font-size: 5vw;  
+      color: #087f5b;
+}
+
+.bxl-whatsapp:hover {
+    font-size: 5vw;  
+      color: #087f5b;
+}
 
 @media (max-width: 720px) {
     .checkbtn {
@@ -956,10 +980,11 @@ footer {
     }
 
     #contacto ul {
-        list-style: none;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    flex-direction: column;
 
-
-        text-align: center;
     }
 
 
@@ -1014,6 +1039,7 @@ footer {
 
     #menus2con {
         margin-left: 0;
+        margin-bottom: 10vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1032,18 +1058,52 @@ footer {
 
         margin-top: 2vh;
         margin-bottom: 2vh;
-        font-size: 4vw;
+        font-size: 4vh;
         color: #fe3b72;
 
         text-align: justify;
     }
+    .bx {
 
+        font-weight: 1000;
+ 
+
+    }
     footer {
         height: auto;
 
         display: flex;
         flex-direction: column;
     }
-
-
+    .bxl-facebook-square {
+        font-size: 8vh;
+    
+        color: #fcc219;
+    }
+    
+    .bxl-instagram-alt {
+        font-size: 8vh;
+        color: #fcc219;
+    }
+    
+    .bxl-whatsapp {
+        font-size: 8vh;
+        color: #fcc219;
+    }
+    
+    .bxl-facebook-square:hover	 {
+        font-size: 9vh;
+    
+        color: #fcc219;
+    }
+    
+    .bxl-instagram-alt:hover {
+        font-size: 9vh;
+        color: #fcc219;
+    }
+    
+    .bxl-whatsapp:hover {
+        font-size: 9vh;
+        color: #fcc219;
+    }
 }
