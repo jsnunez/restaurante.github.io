@@ -1,3 +1,5 @@
-Se diseño una pagina web por mdeio del lenguaje de prigramacion HTML y CSS donde se evidencia los conocimeintos para volver una pagian web responsive  usando diferentes tipos de formas en display
+La página web "Sabor de México" está diseñada para promover un restaurante especializado en comida mexicana. El objetivo principal es proporcionar una experiencia visualmente atractiva y funcional que permita a los usuarios conocer el menú, los servicios ofrecidos, y detalles adicionales sobre el restaurante. La estructura de la página incluye una interfaz de usuario que combina imágenes de alta calidad con descripciones informativas y funcionalidad interactiva.
+
+Estilización Visual: El diseño está estilizado utilizando CSS, con una estructura clara que define el aspecto visual de la página. Incluye estilos para elementos como el fondo, fuentes, colores, márgenes, y tamaños de fuente. Diseño Adaptativo: Se implementan reglas de medios (@media) para asegurar que la página sea responsiva y se ajuste adecuadamente a diferentes tamaños de pantalla, desde dispositivos móviles hasta pantallas de escritorio. Flexbox y Grid: Se utiliza Flexbox y Grid para el diseño de la página y la disposición de los elementos, lo que permite una organización flexible y adaptable del contenido.
 
 ![image](https://github.com/user-attachments/assets/57f4caca-f141-43f7-8245-61bbbe6345ea)
